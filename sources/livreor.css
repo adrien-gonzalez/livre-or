@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans|Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+
+.accueil{
+background-image:url(../img/fondaccueil.jpg);
+background-attachment:fixed;	
+background-size:cover;
+margin:0;
+padding:0;
+}
+
+.inscription{
+background-image:url(../img/fondinscription.jpg);
+background-attachment:fixed;
+margin:0;
+padding:0;	
+}
+
+.connexion{
+background-image:url(../img/fondconnexion.jpg);
+background-attachment:fixed;	
+background-size:cover;
+margin:0;
+padding:0;	
+}
+
+.profil{
+background-image:url(../img/fondprofil.jpg);
+background-attachment:fixed;	
+background-size:cover;
+margin:0;
+padding:0;		
+}
+
+.commentaire{
+background-image:url(../img/fondcommentaires.jpg);
+background-attachment:fixed;	
+background-size:cover;
+margin:0;
+padding:0;		
+}
+
+.livredor{
+background-image:url(../img/fondlivredor.jpg);	
+background-attachment:fixed;	
+background-size:cover;
+margin:0;
+padding:0;	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 18px;
+  text-shadow: black 0.1em 0.1em 0.2em; 
+  display:flex;
+  background-color: rgb(107, 136, 153, 0.6);
+   
+}
+
+
+.ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 18px;
+  text-shadow: black 0.1em 0.1em 0.2em; 
+  display:flex;
+  background-color: rgba(79, 70, 62, 0.54);
+   
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+ border-bottom: 2px solid white;
+ height:18.5px;
+}
+
+
+.connexionform{
+  width:22%;
+  min-width:190px;
+  border-radius: 30px;
+  background: linear-gradient(rgb(155, 182, 237), rgb(35, 35, 37));
+  background-size:cover;
+  padding: 20px; 
+  text-align: center;
+  border:1px solid black;	
+  color:red;
+}
+
+
+.connexionform2{
+  width:22%;
+  min-width:190px;
+  border-radius: 30px;
+  background: linear-gradient(rgb(128, 135, 161), rgb(55, 65, 77));
+  background-size:cover;
+  padding: 20px; 
+  text-align: center;
+  border:1px solid black;	
+  color:red;
+}
+
+.inscriptionform{
+   width:22%;
+  min-width:190px;
+  border-radius: 30px;
+   background: linear-gradient(rgb(154, 219, 241), rgb(109, 95, 50));
+  padding: 20px; 
+  text-align: center;
+  border:1px solid black;	
+  color:red;
+}
+
+.logo{
+margin-bottom:8%;		
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;  
+}
+
+input[type=password], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+
+
+input[type=submit] {
+  width: 80%;
+  background-color: #566573 ;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer; 
+  margin-top:7%;
+}
+
+input[type=reset] {
+  width: 80%;
+  background-color: #566573 ;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer; 
+}
+
+input[type=submit]:hover {
+  background-color: #273746;
+}
+input[type=reset]:hover {
+  background-color: #273746;
+}
+
+.form{
+display:flex;
+justify-content:center;
+margin-top:5%;
+}
+
+
+
+.déconnexion{
+width:150px;
+}
+
+.bouton{
+display:flex;
+justify-content:flex-end;
+width:73%;
+}
+
+.boutondeco{
+display:flex;
+justify-content:flex-end;
+width:100%;	
+	
+}
+
+.commentaireform{
+  width:850px;
+  border-radius: 30px;
+  background: linear-gradient(rgb(170, 150, 117), rgb(1, 1, 0));
+  background-size:cover;
+  padding: 20px; 
+  text-align: center;
+  border:1px solid black;	
+  color:red;		
+}
+
+
+.espace_commentaire{
+resize:none;
+width:800px;
+height:200px;	
+}
+
+.remerciementcommentaire{
+text-align:center;
+color: red;
+font-size:25px;	
+font-family: 'Calistoga', cursive;
+}
+
+table, td{
+border:1px solid black;	
+width:70%;	
+height:50px;
+background-color: #BCAAA4;
+}
+
+.espacecommentaire{
+display:flex;
+justify-content:center;
+margin-top:5%;	
+}
+
+.connexioncommentaire{
+
+text-align:center;
+margin-top:15%;
+height:100px;
+width:30%;
+background: linear-gradient(rgb(170, 150, 117), rgb(1, 1, 0));
+font-family: 'Odibee Sans', cursive;
+font-family: 'Oswald', sans-serif;
+font-size:25px;
+border-radius:30px;
+color:white;
+}
+
+.phraseconnexion{
+width:100%;	
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.button{
+display:flex;
+justify-content:center;
+margin-top:3%;	
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(120, 66, 18, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: #17202A ;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
+.presentationdurp{
+display:flex;
+margin-top:5%;
+background-color: rgb(107, 136, 153);		
+}
+
+.textrp{
+display:flex;
+flex-direction:column;
+align-items:center;
+width:100%;	
+color:white;
+font-family: 'Fjalla One', sans-serif;	
+}
+
+
+.presentationdurp2{
+display:flex;
+margin-top:8%;
+background-color: rgb(107, 136, 153);
+	
+}
+
+.textrp2{
+display:flex;
+flex-direction:column;
+align-items:center;
+width:100%;	
+color:white;
+font-family: 'Fjalla One', sans-serif;	
+}
+
+.serveursimages{
+display:flex;
+flex-direction:column;	
+margin-top:5%;	
+align-items:center;
+color:white;
+font-family: 'Fjalla One', sans-serif;	
+background-color: rgb(107, 136, 153);
+padding:20px;
+}
+
+.photos{
+display:flex;
+justify-content:space-between;
+}
+
+
+footer{
+font-size: 12px;
+font-family: Verdana, Geneva, sans-serif;
+background-color: rgb(107, 136, 153);
+vertical-align: middle;
+border: 1px solid white;
+height:100px;
+margin-top:7%;
+}
+
+.descriplatino{
+text-align:center;
+font-size:45px;
+font-family: 'Kalam', cursive;	
+animation: wheelHueColor 5s infinite;
+color: #F1C40F ;
+}
+
+.page{
+text-align:center;
+color: white;
+}
+
+.logoaccueil{
+display:flex;
+flex-direction:column;
+align-items:center;
+margin-top:5%;		
+}
+
+.textpresentation{
+display:flex;
+flex-direction:column;
+align-items:center;	
+background-color: rgb(107, 136, 153, 0.6);
+font-family: Verdana, Geneva, sans-serif;
+color: white;
+margin-top:2%;
+}
+
+
+.arme {
+  width: 20%;
+  height: 15%;
+  margin-top:10%;
+  position: relative;
+  -webkit-animation: myfirst1 4s infinite;
+  -webkit-animation-direction: alternate;
+  
+
+}
+
+
+.arme2 {
+  width: 20%;
+  height: 15%;
+  margin-top:10%;
+  position: relative;
+  -webkit-animation: myfirst 4s infinite;
+  -webkit-animation-direction: alternate;
+}
+
+
+@-webkit-keyframes myfirst1 {
+  0%   {left: 0%; right: 0%;}
+  25%  {left: -15%; right: 0%;}
+  50%  {left: -15%; right: 20%;}
+  75%  {left: 0%; right: 20%;}
+  100% {left: 0%; right: 0%;}
+}
+
+@-webkit-keyframes myfirst {
+  0%   {left: 0%; right: 0%;}
+  25%  {left: 15%; right: 0%;}
+  50%  {left: 15%; right: 20%;}
+  75%  {left: 0%; right: 20%;}
+  100% {left: 0%; right: 0%;}
+}
+
+
+.commentairedelete{
+text-align:center;
+font-size:30px;
+color:#E74C3C;
+font-family: 'Calistoga', cursive;	
+}
+
+.affichage{
+padding:7px;
+}
+
+
